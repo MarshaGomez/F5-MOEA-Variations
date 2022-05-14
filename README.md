@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/MarshaGomez/F5-MOEA-Variations/wiki"><img src="https://github.com/MarshaGomez/F5-MOEA-Variations/blob/main/report/logo.png" alt="Symbolic and Evolutionary Artificial Intelligence" width="200"></a>
+  <a href="https://github.com/MarshaGomez/F5-MOEA-Variations/wiki"><img src="https://github.com/MarshaGomez/F5-MOEA-Variations/blob/main/docs/img/logo.png" alt="Symbolic and Evolutionary Artificial Intelligence" width="200"></a>
   <br>
     Symbolic and Evolutionary Artificial Intelligence
   <br>

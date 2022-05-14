@@ -1,20 +1,96 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[margin=1in]{geometry}
-\usepackage{graphicx}
-\usepackage[c2]{optidef}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{mathtools}
+\documentclass[a4paper, 10pt, twocolumn, twoside]{article}
 
-\title{MOEA for Calculus of Variations}
-\author{Petrelli, Gomez Gomez}
-\date{}
+\usepackage{TEMPLATE}
+
+\usepackage{lscape}
+\usepackage{hologo}
+
+
 
 \begin{document}
 
-\maketitle
+ % Do not change the following line
+\linespread{0.5}
+
+\title{Multi-objective Evolutionary Algorithm for Calculus of Variations}
+
+\author{Gianmarco Petrelli$^{*}$ and Marsha Gomez Gomez$^{*}$}
+
+\affiliation{
+$^*$University of Pisa, Italy. Artificial Intelligence and Data Engineering
+}
+z
+% Do not change the following three lines
+\maketitle 
+\thispagestyle{fancy} 
+\pagestyle{fancy}
+
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{keywords}
+Calculus of variations; Brachistochrone; MOEA; Genetic Algorithm; Reinforcement Learning 
+\end{keywords}
+
 
 \section{Introduction}
+\label{sec:Introduction}
+
+% (CHECK)
+The mathematician Johann Bernoulli posed a question and invited mathematicians of the time to solve it. The question is: What should be the shape of the curve so a bead will reach the lower point in the least time?. Suppose that a bead is placed on the wire at the higher point and allowed to slide under gravity, starting from rest and assuming no friction. 
+Five prominent mathematicians of the time solved the problem, namely Johann and Jakob Bernoulli, Leibniz, l'Hospital, and Newton. They showed that the solution is also the cycloid, and gave the cycloid its name brachistochrone, which is Greek for shortest-time.
+
+The calculus of variations is one of the classical branches of mathematics. The problem of the Brachistochrone had a very strong influence on the development of the calculus of variations. Applications of variational principles also occur in elasticity, electromagnetic theory, aerodynamics, the theory of vibrations, quantum electrodynamics, and other areas in engineering and science.
+
+This paper is about experiments done to analyze the level of optimal behavior achieve by a combination of reinforcement learning and genetic algorithm. In this specific case, to resolve the brachistochrone problem, specifically, the experiment is expect to solve the classic brachistochrone problem without having any prior knowledge of math or physics.
+
+
+\section{Brachistochrone Problem}
+\label{sec:BP}
+
+
+\section{Reinforcement Learning}
+\label{sec:RL}
+%  (EXPLAIN REINFORCEMENT LEARNING)
+
+%  (CHALLENGE)
+One of the challenges that arise in reinforcement learning, and not in other kinds of learning, is the trade-off between exploration and exploitation. To obtain a lot of reward, a reinforcement learning agent must prefer actions that it has tried in the past and found to be effective in producing reward. But to discover such actions, it has to try actions that it has not selected before. The agent has to exploit what it has already experienced in order to obtain reward, but it also has to explore in order to make better action selections in the future.
+
+%  (SOLUTIONS, HOW WE RESOLVE AND MANAGE THE CHALLENGE)
+
+\subsection{Formulating the five Characteristics}
+\label{subsec:charac}
+
+% (EXPLAIN DETAIL WITH THE PERSONALIZE SOLUTION FORMULATED)
+Agent, Action, Environment, State, Reward.
+
+
+
+\section{Genetic Algorithm Operators}
+\label{sec:GA}
+%  (EXPLAIN REINFORCEMENT LEARNING)
+
+Genetic algorithms and their hybrids are increasingly being applied to produce near-optimal solutions to difficult optimization problems. 
+
+
+%  (CHALLENGE)
+
+
+
+%  (SOLUTIONS, HOW WE RESOLVE AND MANAGE THE CHALLENGE)
+
+\subsection{References}
+
+References to the book \cite{Book}
+
+
+\section{Conclusion}
+\label{sec:Conclusion}
+
+
+
+\bibliography{bibliography}
 
 \end{document}
