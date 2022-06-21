@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T10:56:08.330Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WCe_akgbWsAHKNWY0VOP" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T10:56:45.739Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="JuYrxiyH7TJQXdrIfRtb" version="20.0.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Genetic Algorithm">
     <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
         <mxCell id="iDujiM7EgKtaJfAR5OXv-3" value="Base Solution" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=5;size=30;" vertex="1" parent="1">
           <mxGeometry x="600" y="360" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iDujiM7EgKtaJfAR5OXv-4" value="RL Agent Optimizer" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#BDA04C;" vertex="1" parent="1">
+        <mxCell id="iDujiM7EgKtaJfAR5OXv-4" value="Stochastic Solution Variator" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#BDA04C;" vertex="1" parent="1">
           <mxGeometry x="760" y="360" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iDujiM7EgKtaJfAR5OXv-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADYAAAAuCAYAAABjwOorAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAAAndEVYdENyZWF0aW9uIFRpbWUAbWFyIDIxIGdpdSAyMDIyLCAxMjo1MToxMzgzvZ8AAALFSURBVGiB7dpdT9pQGAfwv2RqLUJBeYmdZVMnzLkh2S26ZRd6s2SfYFzss21m7jOAJgsDXRYXUQlKzWToZkHRYBTxBdiFqVk2WW3PaSzN/re0zzm/PO3ThrStXq830ALZl8pIJ0WkP2/AN9wHwc+Dc9maHt/WKjA51crZJTApwua0QvDz8Ai9fx3XcrDfs/blG1Y+ibg4v4Aw3AdfgL/6raVhcvJrO1hNZFHcKkHw83C67eaAydn7eYDVhIgDqWwumJyTo6o5YQBgue0N6JX/sFaLaWF3SE6em1nA+uKm5vODEwGEXz0l2ULTaIYtxtLYl8p4+eaFpvOrlVPMfkgi9HwEVq5L6zaaRtOlmP2aQ3peRHD8oeaFGbYTg499WPqY0VzjX1ENkzZ3Mft+HsHxETBsJ9HiA6P9WI6v47h8QlTnuqiCHZdPEJ1OIvTsEXq8HPHil10TdOmaKlj0XQL8oBd3h7zUNjAwKujStRvD5mYW0N7RjuHQfaob0KtrN4LJE/BJOEB1cTl6dE0Rll3MIZ0km4BK0aNrirCVRBZjE+QTUCn3RvpRyO2hWjmlUk8RVtwqwUlhAiqF7WZwflbDgXRIpZ6h3hU5lw2F/B6VWoaCOVw27GyaEea2o7hVolLLUDDW1oVGvYHD0hFxLUPBAMDp4VDIk3fNcDCutxuFHPl9ZjiYw22H9N2MMI8duz/2UavVieoYDmaxWNDjdaBI2DXDwQD5QU02QAwJc7hskAgf1MaEURggirChoA+p+BrRImojLuXAD3mIaijCpiJhdLLtSMX1+Tfpz6TiGTBsB6YiYaI6N7oUpyJhMGyH7jgZNUmIAlTcY5M642iiAJXDQy8cbRSgYSrSxqXiGTBWuihA47inhbtCvaaLAgi/Goi+TWBjOa958QdjPl1QgEk+h7guhnzzoBHzwmKxGLa3t297H9TzC5sfFZrBsntdAAAAAElFTkSuQmCC;" vertex="1" parent="1">
@@ -112,7 +112,7 @@
         <mxCell id="iDujiM7EgKtaJfAR5OXv-19" value="Initial Population" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="960" y="647" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iDujiM7EgKtaJfAR5OXv-20" value="RL Agent Optimizer" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#BDA04C;" vertex="1" parent="1">
+        <mxCell id="iDujiM7EgKtaJfAR5OXv-20" value="MOEA &lt;br&gt;(NSGA II)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#BDA04C;" vertex="1" parent="1">
           <mxGeometry x="760" y="680" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
