@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T10:15:36.404Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="YKZievYCsPw9DRDa1w6L" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-21T10:17:15.014Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="h-u4O0O4D-z_Ovh7gnUg" version="20.0.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Genetic Algorithm">
     <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,11 +98,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4leRsvrhwP8JisumgPx3" name="Reinforcement Learning">
-    <mxGraphModel dx="293" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="607" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JsHR8KDacxnrFsU4HDt5-1" value="Agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Agent&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="140" y="80" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="JsHR8KDacxnrFsU4HDt5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;strokeWidth=0.5;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-1" target="JsHR8KDacxnrFsU4HDt5-4">
@@ -124,7 +124,7 @@
         </mxCell>
         <mxCell id="JsHR8KDacxnrFsU4HDt5-17" value="Observation&lt;br&gt;O&lt;sub&gt;t&lt;/sub&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="JsHR8KDacxnrFsU4HDt5-5">
           <mxGeometry x="0.6946" y="2" relative="1" as="geometry">
-            <mxPoint x="10" y="22" as="offset" />
+            <mxPoint x="20" y="22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JsHR8KDacxnrFsU4HDt5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-3" target="JsHR8KDacxnrFsU4HDt5-1">
@@ -133,6 +133,16 @@
               <mxPoint x="480" y="380" />
               <mxPoint x="480" y="140" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-19" value="Action &lt;br&gt;A&lt;sub&gt;t&lt;/sub&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="JsHR8KDacxnrFsU4HDt5-6">
+          <mxGeometry x="0.8496" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-20" value="Reward&amp;nbsp;&lt;br&gt;R&lt;sub&gt;t&lt;/sub&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="JsHR8KDacxnrFsU4HDt5-6">
+          <mxGeometry x="-0.7807" relative="1" as="geometry">
+            <mxPoint x="-123" y="-38" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JsHR8KDacxnrFsU4HDt5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-3">
