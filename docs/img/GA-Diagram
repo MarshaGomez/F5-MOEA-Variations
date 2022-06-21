@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T10:44:47.852Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="loRwHjljSpgmUykZlLVL" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T10:47:26.526Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CMpffS3v-PdgdobsLFar" version="20.0.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Genetic Algorithm">
     <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,26 +82,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="559aFhLFahdTLcEyO2Mn-6" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
-          <mxGeometry x="202" y="360" width="118" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="559aFhLFahdTLcEyO2Mn-1" value="- Target Position" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="213" y="392" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="559aFhLFahdTLcEyO2Mn-2" value="- Initial Falling Angle" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="213" y="412" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="559aFhLFahdTLcEyO2Mn-3" value="- Initial Velocity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="213" y="432" width="140" height="30" as="geometry" />
+        <mxCell id="559aFhLFahdTLcEyO2Mn-6" value="&amp;nbsp;- Target Position&lt;br&gt;&amp;nbsp;- Initial Velocity&lt;br&gt;&amp;nbsp;- Initial Falling Angle" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="360" width="118" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iDujiM7EgKtaJfAR5OXv-1" value="RL Agent Optimizer" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#BDA04C;" vertex="1" parent="1">
-          <mxGeometry x="400" y="360" width="120" height="120" as="geometry" />
+          <mxGeometry x="438" y="360" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iDujiM7EgKtaJfAR5OXv-2" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#BDA04C;" vertex="1" parent="1">
-          <mxGeometry x="680" y="620" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="iDujiM7EgKtaJfAR5OXv-3" value="Base Solution" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="iDujiM7EgKtaJfAR5OXv-3" value="Base Solution" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=5;size=30;" vertex="1" parent="1">
           <mxGeometry x="600" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iDujiM7EgKtaJfAR5OXv-4" value="RL Agent Optimizer" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#BDA04C;" vertex="1" parent="1">
+          <mxGeometry x="760" y="360" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
