@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T10:11:12.376Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9TgzyJySSNTwBRlq0pM2" version="20.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-21T10:15:36.404Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="YKZievYCsPw9DRDa1w6L" version="20.0.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Genetic Algorithm">
     <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,12 +98,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4leRsvrhwP8JisumgPx3" name="Reinforcement Learning">
-    <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="293" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JsHR8KDacxnrFsU4HDt5-1" value="Agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="140" y="80" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;strokeWidth=0.5;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-1" target="JsHR8KDacxnrFsU4HDt5-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JsHR8KDacxnrFsU4HDt5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-1" target="JsHR8KDacxnrFsU4HDt5-2">
           <mxGeometry relative="1" as="geometry" />
@@ -119,12 +122,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JsHR8KDacxnrFsU4HDt5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-3" target="JsHR8KDacxnrFsU4HDt5-1">
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-17" value="Observation&lt;br&gt;O&lt;sub&gt;t&lt;/sub&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="JsHR8KDacxnrFsU4HDt5-5">
+          <mxGeometry x="0.6946" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-3" target="JsHR8KDacxnrFsU4HDt5-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="380" />
               <mxPoint x="480" y="140" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JsHR8KDacxnrFsU4HDt5-3" value="Environment" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -133,10 +146,25 @@
         <mxCell id="JsHR8KDacxnrFsU4HDt5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-4" target="JsHR8KDacxnrFsU4HDt5-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;startArrow=classic;startFill=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;endArrow=oval;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-18" value="Policy &lt;br&gt;Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;labelBackgroundColor=none;" vertex="1" connectable="0" parent="JsHR8KDacxnrFsU4HDt5-16">
+          <mxGeometry x="0.4186" y="1" relative="1" as="geometry">
+            <mxPoint x="-76" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JsHR8KDacxnrFsU4HDt5-4" value="Reinforcement Learning Algorithm" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="180" y="200" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JsHR8KDacxnrFsU4HDt5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-1" target="JsHR8KDacxnrFsU4HDt5-2">
+        <mxCell id="JsHR8KDacxnrFsU4HDt5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JsHR8KDacxnrFsU4HDt5-1" target="JsHR8KDacxnrFsU4HDt5-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="350" y="140" />
