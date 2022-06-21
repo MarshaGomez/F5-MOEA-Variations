@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T11:09:55.647Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="4-Q3VRh8oHShCH11t23T" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T11:10:51.511Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="35n2Jxsw61eSfAqvLec_" version="20.0.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Genetic Algorithm">
     <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mb19S_FTzrSl9woCtB5w" name="Hybrid Solution">
-    <mxGraphModel dx="449" dy="268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1926" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,11 +148,14 @@
         <mxCell id="iDujiM7EgKtaJfAR5OXv-28" value=".&amp;nbsp; .&lt;br style=&quot;font-size: 17px;&quot;&gt;. .&amp;nbsp; &amp;nbsp; .&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 17px;&quot;&gt;.&lt;/div&gt;&lt;span style=&quot;white-space: pre; font-size: 17px;&quot;&gt;	&lt;/span&gt;.." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;rotation=15;" vertex="1" parent="1">
           <mxGeometry x="586" y="670" width="160" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="iDujiM7EgKtaJfAR5OXv-36" value="Optimal Path" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="810" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="4leRsvrhwP8JisumgPx3" name="Reinforcement Learning">
-    <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1348" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,7 +243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7dVtZ3hsjcX06JFa6mFg" name="Page-4">
-    <mxGraphModel dx="425" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1348" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
